@@ -1,3 +1,4 @@
+DROP DATABASE IF EXISTS `PS2`;
 CREATE database if not exists `PS2`;
 USE `PS2`;
 
@@ -21,7 +22,6 @@ CREATE TABLE `Authors` (
 `LastName` varchar (20) NOT NULL,
 `Birthday` varchar (15) NOT NULL ,
 `Residence` varchar (50) NULL ,
-`BooksID` varchar (20) NOT NULL ,
 PRIMARY KEY (`AuthorID`) 
 );
 
