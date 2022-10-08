@@ -1,0 +1,51 @@
+/*
+Books
+    BookID
+    BookTitle
+    AuthorID
+    ISBN
+    Language
+    Genre
+    EditorID
+    PublisherID
+    DatePublished
+    Royalty
+
+Authors
+    AuthorID
+    FirstName
+    LastName
+    Birthday
+    Residence
+    BooksWritten
+
+Publishers
+    PublisherID
+    PublisherName
+    City
+    State
+    Country
+
+Editors
+    EditorID
+    EdiName
+    HourlyRate
+
+Customers
+    CustomerID
+    CustomerName
+
+Orders
+    OrderID
+    OrderDate
+    ChannelID
+    ShipmentAmount
+    CustomerID
+    StoreID
+    BookID
+
+Channels
+    ChannelID
+    ChannelName
+    Location
+*/

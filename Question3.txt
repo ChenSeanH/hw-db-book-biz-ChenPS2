@@ -1,0 +1,8 @@
+/*
+Books : Authors = N : N
+Books : Publishers = N : N
+Books : Editors = N : N
+Books : Orders = N : 1
+Orders : Channels = N : 1
+Orders : Customers = N : 1
+*/
