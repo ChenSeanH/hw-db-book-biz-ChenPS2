@@ -17,7 +17,7 @@ Authors
     LastName
     Birthday
     Residence
-    BooksWritten
+    BooksID
 
 Publishers
     PublisherID
@@ -28,18 +28,22 @@ Publishers
 
 Editors
     EditorID
-    EdiName
+    FirstName
+    LastName
     HourlyRate
 
 Customers
     CustomerID
-    CustomerName
+    Address
+    City
+    States
+    Country
 
 Orders
     OrderID
     OrderDate
     ChannelID
-    ShipmentAmount
+    ShippmentAmount
     CustomerID
     StoreID
     BookID
